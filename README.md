@@ -11,7 +11,6 @@ ground clearance: 0 < .05
 
 Is the slope of the linear model considered to be zero? Why or why not?
 
-![]()
 ![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/summary%20stats%20FOR%20linear%20reg-%20b.png)
 
 The P- value here is 5.35e-11 
@@ -23,8 +22,8 @@ The model has a .7149 or 71% prediction efficiency. However, there is still alot
 ## Summary Statistics on Suspension Coils
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-ALL LOTS
 
+ALL LOTS
 ![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/coil%20stats%20-%20c.png)
 
 With Total Manufaturing  Variance at 62 PSI it is within the 100 PSI Variance. However, when broken up into lots we see that Lot 3 has a Variance of 170 which does not meet design specifications
