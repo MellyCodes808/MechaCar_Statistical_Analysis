@@ -4,6 +4,8 @@ This dataset holds test results for 50 MechaCarprototypes. Each Prototype was pr
 ## Linear Regression to Predict MPG
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 THe following varibles constitute  non-random amount of variance to the mpg values based off their p-values.
+
+![](MechaCar_Statistical_Analysis/blob/main/Results/linear%20regression-%20A.png)
 vehicle length: 0 < .05
 ground clearance: 0 < .05
 
