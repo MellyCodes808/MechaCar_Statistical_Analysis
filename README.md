@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-This dataset holds test results for 50 MechaCarprototypes. Each Prototype was produced with various design attributes that are meant to increase preformance. By Using R  I designed a linear model that predicts the MPG of mechaCar protypes using linerar regression and T-tests 
+This dataset holds test results for 50 MechaCar prototypes. Each Prototype was produced with various design attributes that are meant to increase preformance. By Using R  I designed a linear model that predicts the MPG of mechaCar protypes using linerar regression and T-tests 
 
 ## Linear Regression to Predict MPG
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
