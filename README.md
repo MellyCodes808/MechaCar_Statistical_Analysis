@@ -10,6 +10,10 @@ vehicle length: 0 < .05
 ground clearance: 0 < .05
 
 Is the slope of the linear model considered to be zero? Why or why not?
+
+![]()
+![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/summary%20stats%20FOR%20linear%20reg-%20b.png)
+
 The P- value here is 5.35e-11 
 this P-value is extremly low compared to the typicl significance of .05% - because of this, the null hypothesis can be neglected and it will have a non zero slope.
 
@@ -21,19 +25,26 @@ The model has a .7149 or 71% prediction efficiency. However, there is still alot
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 ALL LOTS
 
+![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/coil%20stats%20-%20c.png)
+
 With Total Manufaturing  Variance at 62 PSI it is within the 100 PSI Variance. However, when broken up into lots we see that Lot 3 has a Variance of 170 which does not meet design specifications
 
 INDIVIDUAL 
-
+![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/lot%20summary.png)
 
 ## T-Tests on Suspension Coils
 
 There is a summary of the t-test results across all manufacturing lots and for each lot (5 pt)
-
+![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/t_test-%20total.png)
 P-value- same range 
-1 pvalue of same range so in the same category
+
+
+1 pvalue of same range so in the same category\
+![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/t-test_lot1.png)
 2 has slight difference in its distribution (.60 > .05)
+![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/t-test_lot2.png)
 Lot 3 has a Pvalue lower that .5 .  the mean is till within the the 95 percent confidence interval. (.04 < .05)
+![](https://github.com/MellyCodes808/MechaCar_Statistical_Analysis/blob/main/Results/t-test_lot3.png)
 
 ## Study Design: MechaCar vs Competition.
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
